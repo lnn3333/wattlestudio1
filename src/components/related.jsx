@@ -1,10 +1,4 @@
 import React from "react";
-
-// import Shop from "./shop"
-// import Artist from "./artist"
-// import Blog from "./blog"
-// import About from "./about"
-// import Contact from "./contact"
 import "./home.css";
 import circle from '../assets/circle.png';
 

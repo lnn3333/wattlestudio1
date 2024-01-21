@@ -21,13 +21,13 @@ const Header = () => {
         <li><Link to="/blog" className="links">Blog</Link></li>
         <li><Link to="/about" className="links">About us</Link></li>
         <li><Link to="/contact" className="links">Contact us</Link></li>
-
-    </ul>
-    <div className="header-left-container">
+        <div className="header-left-container">
         <img src={headerleft1} alt='pic' className="header-left"></img>
         <img src={headerleft2} alt='pic' className="header-left"></img>
         <img src={headerleft3} alt='pic' className="header-left"></img>
-    </div>  
+    </div> 
+    </ul>
+ 
     
 
     </nav>

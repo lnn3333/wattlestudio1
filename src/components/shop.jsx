@@ -2,7 +2,8 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Related from "./related";
-import productlist from '../assets/product-list.png';
+import productlist from '../assets/product.png';
+
 //import { Link, Routes, Route, useNavigate } from 'react-router-dom';
 //import SelectComponent from "./SelectComponent";
 import "./home.css";
@@ -19,7 +20,7 @@ const Shop = () => {
                     <table id="product-list">
                         <tr className="product-row">
                         <th className="product">
-                            <img scr={productlist} alt="product1" className="product1"></img>
+                            <img scr={productlist} alt="product1" className="product1" ></img>
                             <p className="name">KAONASHI / NOFACE</p>
                             <p className="type">Epoxy figure</p>
                             <p className="price">$100</p>
