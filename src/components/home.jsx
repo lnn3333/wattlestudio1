@@ -8,7 +8,7 @@ import Header from './header';
 // import Contact from "./contact"
 import "./home.css";
 import circle from '../assets/circle.png';
-import Carousel from "./carousel";
+import CarouselPage from "./carousel";
 import {slides} from "../data/carousel";
 
 
@@ -45,7 +45,7 @@ const Home = () => {
                             <img src={circle} alt="circle" className="circle2"/>
                 </div>
                 <div className="item-container">
-                    <Carousel data = {slides}/>
+                    <CarouselPage data = {slides}/>
                 </div>
                 </div>
             </section>
