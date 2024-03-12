@@ -18,13 +18,16 @@ const CarouselPage = () => {
                 interval={5000}
                 stopOnHover={true}
                 swipeable={true}
-                dynamicHeight={true}
+                dynamicHeight={false}
             >
                 {chunkedSlides.map((group, idx) => (
                     <div key={idx} className="slider" >
                         {group.map((item, index) => (
                             <div className="carousel-item">
                             <img key={index} src={item.src} alt={item.alt} />
+                            <p className="name">{item.name}</p>
+                            <p className="type">{item.type}</p>
+                            <p className="price">{item.price}</p>
                             </div>
                         ))}
                     </div>

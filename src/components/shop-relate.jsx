@@ -4,9 +4,11 @@ import Footer from "./footer";
 import Related from "./related";
 import circle from '../assets/circle.png';
 import main from '../assets/main.png';
-import side1 from '../assets/side1.png';
-import side2 from '../assets/side2.png';
-import side3 from '../assets/side3.png';
+import ProductCarousel from "./product-carousel";
+import { productSlide } from "../data/carousel";
+// import side1 from '../assets/side1.png';
+// import side2 from '../assets/side2.png';
+// import side3 from '../assets/side3.png';
 import star from '../assets/star.png';
 //import { Link, Routes, Route, useNavigate } from 'react-router-dom';
 //import SelectComponent from "./SelectComponent";
@@ -21,9 +23,10 @@ const ShopRelate = () => {
             <div className="shop-container">
                 <section id="pic">
                 <img src={main} alt="product1" className="main-pic"></img>
-                <img  src={side1} alt="product2" className="side-pic"></img>
+                {/* <img  src={side1} alt="product2" className="side-pic"></img>
                 <img src={side2} alt="product2" className="side-pic"></img>
-                <img  src={side3}alt="product2" className="side-pic"></img>
+                <img  src={side3}alt="product2" className="side-pic"></img> */}
+                <ProductCarousel data = {productSlide}/>
                 </section>
 
                 <section id="description">

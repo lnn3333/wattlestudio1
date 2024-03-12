@@ -193,11 +193,11 @@ body {
 /* epoxy */
 
 #epoxy{
-    height: 763px;
+    height: 863px;
     display: block;
 }
 .epoxy-container{
-    height:743px;
+    height:703px;
     width: 1648px;
     margin: 50px;
     display: inline-block;
@@ -222,7 +222,8 @@ body {
 .item-container{
     margin:5px;
     display: flex;
-    height: 700px;
+    height: 900px;
+    z-index: 0;
 }
 
 .epoxy-item{
