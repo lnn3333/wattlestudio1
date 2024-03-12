@@ -1,15 +1,25 @@
-.carousel-container {
+
+
+.carousel-item {
     position: relative;
-    top: 33%;
-    left: 50%;
- /* transform: translate(-50%, -50%); */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 30%;
-    margin-top: 2px;
+    width: 20%;
+    height: 20%;
+    margin: 0px 65px;
+    background-color: #EFD070;
 }
+
+.carousel-item > img {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    object-fit:contain; /* Ensure the image covers the entire box */
+}
+
+
+
 
 
 

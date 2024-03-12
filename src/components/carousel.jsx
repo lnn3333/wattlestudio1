@@ -21,9 +21,11 @@ const CarouselPage = () => {
                 dynamicHeight={true}
             >
                 {chunkedSlides.map((group, idx) => (
-                    <div key={idx}>
+                    <div key={idx} className="slider" >
                         {group.map((item, index) => (
+                            <div className="carousel-item">
                             <img key={index} src={item.src} alt={item.alt} />
+                            </div>
                         ))}
                     </div>
                 ))}
