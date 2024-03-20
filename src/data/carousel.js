@@ -13,42 +13,49 @@ export const slides =[
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product1"
     },
     {
         "src":carousel2,
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product2"
+
     },
     {
         "src":carousel3,
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product3"
     },
     {
         "src":carousel1,
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product1"
     },
     {
         "src":carousel2,
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product2"
     },
     {
         "src":carousel3,
         "alt":"carousel1",
         "name":"NAME",
         "type": "TYPE",
-        "price": 122
+        "price": 122,
+        "productLink": "product3"
     }
 ];
 
