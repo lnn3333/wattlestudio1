@@ -10,11 +10,13 @@ import headerleft3 from '../assets/header-left3.png';
 const Header = () => {
     return(
     <nav id="nav-home">
+    <Link to="/" className="links">
     <div className="logo-components">
         <img src={logo} alt="Logo" className="logo"/>
         <p className="text1">WATTLE SKY</p>
         <p className="text2">STUDIO</p>
     </div>
+    </Link>
     <ul className="nav-links">
         <li><Link to="/shop" className="links">Shop</Link></li>
         <li><Link to="/artist" className="links">Artist</Link></li>

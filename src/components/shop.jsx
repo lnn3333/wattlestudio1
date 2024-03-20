@@ -25,7 +25,7 @@ const Shop = () => {
                         {slides.slice(0, 3).map(s => {
                         let productLink = s.productLink; // Declare the variable outside of the JSX block
                         return (
-                            <Link to={`/product-detail-pages/${productLink}`} key={productLink}>
+                            <Link to={`/product-detail-pages/${productLink}`} key={productLink} className="link">
                                 <div className="productListing-item">
                                     <img src={s.src} alt={s.alt} />
                                     <p className="productListing-name">{s.name}</p>
@@ -40,7 +40,7 @@ const Shop = () => {
                         {slides.slice(3,6).map(s => {
                         let productLink = s.productLink; // Declare the variable outside of the JSX block
                         return ( 
-                            <Link to={`/product-detail-pages/${productLink}`} key={productLink}>
+                            <Link to={`/product-detail-pages/${productLink}`} key={productLink} className="link">
                                 <div className="productListing-item">
                                     <img src={s.src} alt={s.alt} />
                                     <p className="productListing-name">{s.name}</p>

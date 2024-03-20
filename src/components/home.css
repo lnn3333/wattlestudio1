@@ -22,7 +22,7 @@ body {
 
 /* NAV-BAR */
 #nav-home{
-    height: 160.57px;
+    height: 230.57px;
     display: flex;
 }
 .logo-component{
@@ -421,6 +421,10 @@ body {
     text-align: center;
     margin-top: 2px;
 
+}
+
+.link {
+    text-decoration: none;
 }
 
 /* shop side bar */

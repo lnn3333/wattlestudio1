@@ -5,6 +5,7 @@ import CarouselPage from "./carousel";
 import {slides} from "../data/carousel";
 
 
+
 const Related = () => {
       
 
@@ -16,7 +17,7 @@ const Related = () => {
                     <img src={circle} alt="circle" className="circleR" />
                 </div>
                 <div className="related-item-container">
-                         <CarouselPage data = {slides}/>
+                        <CarouselPage data = {slides}/>
                 </div>
             </div>
         </section>
