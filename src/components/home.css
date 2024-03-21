@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    /* Adjustments for smaller screens */
+    #nav-home .logo {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .footer-container {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .search-container, .ig-container, .category-container {
+        width: 100%; /* Make search and category full width */
+    }
+}
 :root{
     --white: white;
     --blue:#0057A5;
@@ -17,6 +48,10 @@ body {
     scroll-behavior: smooth;
     height: 4693px;
     width: 1920px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 
@@ -24,6 +59,7 @@ body {
 #nav-home{
     height: 230.57px;
     display: flex;
+    margin: 20px;
 }
 .logo-component{
     display: flex;
